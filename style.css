@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+    list-style-type: square;
+}
+
+
+div {
+    font-family: "Times New Roman", Times, serif;
+} 
+
+body{
+background-color:green;
+
+}
+
+
+#punkte{
+list-style-type:disc;
+}
+#ueberschrift{
+	color:green;
+	width: 100%;
+	height:150px;
+	background-image: url("images/forest.jpg")
+}
+
+#ueberschrift h1{
+	padding: 10px;
+	background: rgb(40,40,40);
+}
+
+h1 {
+	text-align: center;
+	font-family: "Lucida Console", Monospace;
+	
+	}
+
+#navigation{
+	width: 40%;
+    height:60%;
+	background-color:orange;
+    border:5px black;
+	float: left;
+	font-family: "sans-serif";
+	padding: 10px 30px;
+	list-style-type: square;
+
+}
+a{
+color:black;
+}
+a:visited{
+color:blue;
+
+}
+#bilddurchlauf{
+	width: 60%;
+    height:65%;
+	border:5px black;
+	float: right;
+	background: url("images/husqvarnawr125.jpg");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+	src='images/husqvarnawr125.jpg',
+	sizingMethod='scale');
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+	src='images/husqvarnawr125.jpg',
+	sizingMethod='scale')";
+}
+#bildergeschichte{
+	width: 60%;
+    height:50%;
+	
+	border:5px black;
+	float: right;
+}
+
+#bildergeschichte img{
+	width: 100%;
+}
+
+
+#unterpunkte {
+	margin-left: 20px;
+}
+
+p{
+color:black;
+font-family:"Times New Roman", Times, serif;
+}
